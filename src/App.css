@@ -20,3 +20,54 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .button-container {
+    display: flex;
+}
+
+.special-number-container {
+  margin: 20px 0 20px 25px;
+  width: 300px;
+}
+
+.buttons {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 10px 15px 10px 10px;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+.buttons:active {
+    box-shadow: none;
+}
+
+.number-buttons {
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.number-buttons:nth-child(10) {
+  width: 165px;
+  border-radius: 45%;
+}
+
+.special-buttons {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+}
+
+.operator-buttons-container {
+  margin-top: 10px;
+}
+
+.operator-buttons {
+  display: flex;
+  justify-content: center;
+  border: 1px solid steelblue;
+  background-color: steelblue;
+  margin: 20px 0 0 0;
+}
